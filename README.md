@@ -14,11 +14,11 @@ WinToLin is a high-performance, P2P file transfer utility designed to seamlessly
 ### Windows
 Open PowerShell and run:
 ```powershell
-curl -sL https://raw.githubusercontent.com/realkivanc1905/WinToLin/main/install.ps1 | powershell
+irm https://raw.githubusercontent.com/realkivanc1905/WinToLin/main/install.ps1 | iex
 ```
 *Restart your terminal after installation.*
 
-### Linux (Ubuntu/Kali/Debian)
+### Linux (Ubuntu/Debian)
 Open Terminal and run:
 ```bash
 curl -sL https://raw.githubusercontent.com/realkivanc1905/WinToLin/main/install.sh | bash
